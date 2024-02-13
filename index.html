@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- RemixIcon -->
+     <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+    rel="stylesheet"/>
+     <!-- CSS -->
+     <link rel="stylesheet" href="style.css">
+     <title>Animated Login Page with Bcode</title>
+</head>
+<body>
+
+     <div class="login">
+          <img src="https://mir-s3-cdn-cf.behance.net/project_modules/fs/98858752005319.5901123c0f56e.jpg" alt="Login image" class="login__img">
+
+          <form action="" class="login__form">
+               <div class="login_user_icon">
+                    <i class="ri-user-6-line"></i>
+               </div>
+               <h1 class="form__title">Login</h1>
+               <div class="login__content">
+                    <div class="login_box">
+                         <i class="ri-user-3-fill login_icon"></i>
+                         <div class="login_box_input">
+                              <input type="email" required class="login_input" placeholder=" ">
+                              <label for="" class="login__label">Email</label>
+                         </div>
+                    </div>
+                    <div class="login_box">
+                         <i class="ri-lock-2-fill login_icon"></i>
+                         <div class="login_box_input">
+                              <input type="password" required class="login_input" id="login-pass" placeholder=" ">
+                              <label for="" class="login__label">Password</label>
+                              <i class="ri-eye-fill login_eye" id="login-eye"></i>
+                         </div>
+                    </div>
+               </div>
+               <div class="login__check">
+                    <div class="login__check-group">
+                         <input type="checkbox" class="login__check-input">
+                         <label for="" class="login__cheak-lable">Remember Me</label>
+                    </div>
+                    <a href="#" class="login__forgot">Forgot Password?</a>
+               </div>
+
+               <button class="login__button">Login</button>
+
+               <p class="login__register">Don't have an account? <a href="#">Register</a></p>
+          </form>
+
+     </div>
+
+
+     <!-- Main Js -->
+     <script src="main.js"></script>
+</body>
+</html>
